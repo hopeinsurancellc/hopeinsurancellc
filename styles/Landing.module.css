@@ -1,0 +1,83 @@
+#landingDiv {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.2), 
+      rgba(0, 0, 0, 0.2)
+    ), url('../public/img/landing_background.jpg');
+  background-size: cover;
+  height: 75vh;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#header {
+  text-transform: uppercase;
+  font-size: 4.4em;
+  margin: 0px;
+}
+
+#tagline {
+  font-size: 2.6em;
+  font-style: italic;
+  margin: 5px;
+  margin-bottom: 2em;
+}
+
+#inner-container {
+  width: 75%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+  #header {
+    font-size: 3.3em;
+  }
+
+  #tagline {
+    font-size: 2.3em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #header {
+    font-size: 2.8em;
+    text-align: center;
+  }
+
+  #tagline {
+    font-size: 2em;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  #header {
+    font-size: 2.5em;
+  }
+
+  #tagline {
+    font-size: 1.2em;
+  }
+
+  #innerContainer {
+    width: 95%;
+  }
+
+}
+
+@media only screen and (max-width: 375px) {
+  #header {
+    font-size: 2.3em;
+  }
+
+  #tagline {
+    font-size: 1em;
+  }
+
+  #innerContainer {
+    width: 95%;
+  }
+
+}

@@ -1,0 +1,19 @@
+.icons {
+  margin: 0 auto;
+  width: auto;
+}
+
+.icon {
+  display: inline-block;
+  font-size: 4.5em;
+  margin: 0px 15px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+@media only screen and (max-width: 375px) {
+  .icon {
+    font-size: 3.8em;
+  }
+}
